@@ -4,6 +4,12 @@
       "id": 1,
       "title": "Work",
       "value": 1000,
+      "isExpense": false
+    },
+    {
+      "id": 2,
+      "title": "Electricity",
+      "value": 100,
       "isExpense": true
     }
   ]

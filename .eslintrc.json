@@ -22,7 +22,9 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     // Bug in airbnb style, to be removed once fixed -- https://github.com/airbnb/javascript/issues/2505
-    "react/function-component-definition": ["off"]
+    "react/function-component-definition": ["off"],
+    // To be reviewed
+    "react/prop-types": ["off"]
   },
   "settings": {
     "react": {

@@ -1,7 +1,17 @@
+import AddEntry from './components/AddEntry';
+import BalanceSheet from './components/BalanceSheet';
+import Header from './components/Header';
+import ListEntries from './components/ListEntries';
+import UpdateEntry from './components/UpdateEntry';
+
 function App() {
   return (
     <div>
-      <h1>App</h1>
+      <Header />
+      <BalanceSheet />
+      <AddEntry />
+      <ListEntries />
+      <UpdateEntry />
     </div>
   );
 }

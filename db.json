@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "title": "Work",
+      "value": 1000,
+      "isExpense": true
+    }
+  ]
+}

@@ -10,7 +10,7 @@ import {
   Typography
 } from '@mui/material';
 
-function ListEntries({ entries }) {
+function ListEntries({ entries, setIsOpen }) {
   return (
     <>
       <Typography variant="h5">List of Entries</Typography>
@@ -31,7 +31,7 @@ function ListEntries({ entries }) {
               <TableCell>{entry.isExpense ? 'Expense' : 'Income'}</TableCell>
               <TableCell align="right">
                 <Stack direction="row" justifyContent="flex-end" spacing={2}>
-                  <Icon>
+                  <Icon onClick={() => setIsOpen(true)}>
                     <Edit />
                   </Icon>
                   <Icon>

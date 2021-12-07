@@ -13,6 +13,7 @@ function App() {
   const [income, setIncome] = useState(0);
   const [expense, setExpense] = useState(0);
   const [balance, setBalance] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
 
   const entries = useSelector((state) => state.entries);
 
@@ -43,8 +44,8 @@ function App() {
       <Header />
       <BalanceSheet income={income} expense={expense} balance={balance} />
       <AddEntry />
-      <ListEntries entries={entries} />
-      <UpdateEntry />
+      <ListEntries entries={entries} setIsOpen={setIsOpen} />
+      <UpdateEntry isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 }

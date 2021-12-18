@@ -6,7 +6,6 @@ import StyleButton from './StyleButton'
 
 import './RichTextEditor.css';
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 class RichTextEditor extends Component {
     constructor(props) {

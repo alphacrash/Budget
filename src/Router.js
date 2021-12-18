@@ -18,7 +18,7 @@ import ReusableComponents from './components/ReusableComponents';
 import SpinnerDemo from './components/SpinnerDemo';
 
 // Rich Text Box
-import DemoRichText from './componentsx/RichText/DemoRichText';
+import Notes from './componentsx/Notes';
 import RichTextCreate from './componentsx/RichText/RichTextCreate';
 import RichTextList from './componentsx/RichText/RichTextList';
 
@@ -58,7 +58,7 @@ const Router = () => {
             <Route path="/spinner" element={<SpinnerDemo />} />
             <Route path="/muc" element={<MultiUseCardDemo />} />
 
-            <Route path="richtext" element={<DemoRichText />}>
+            <Route path="notes" element={<Notes />}>
               <Route path="edit" element={<RichTextCreate />} />
               <Route path="list" element={<RichTextList />} />
             </Route>

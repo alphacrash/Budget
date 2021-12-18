@@ -3,10 +3,20 @@ import {
     Stack,
     Box, Typography
 } from '@mui/material';
+import { useEffect, useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { MultiUseCard } from '../MultiUseCard/MultiUseCard';
+import { MultiUseCard } from './MultiUseCard/MultiUseCard';
+import Spinner from './Spinner/Spinner';
 
-function RichText() {
+function Notes() {
+    const [show, setShow] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setShow(false);
+        }, 1000);
+    }, [show, setShow]);
+
     return (
         <Box
             sx={{
@@ -28,12 +38,12 @@ function RichText() {
                         justifyContent="center"
                     >
                         <Link to="edit">
-                            <Button variant="outlined">
+                            <Button variant="outlined" onClick={() => setShow(true)}>
                                 Create
                             </Button>
                         </Link>
                         <Link to="list">
-                            <Button variant="outlined">
+                            <Button variant="outlined" onClick={() => setShow(true)}>
                                 View
                             </Button>
                         </Link>
@@ -48,7 +58,7 @@ function RichText() {
                         color="text.primary"
                         gutterBottom
                     >
-                        Rich Text
+                        Notes
                     </Typography>
                 </Link>
             </MultiUseCard>
@@ -58,10 +68,14 @@ function RichText() {
                 iconName="ic_blue_alert"
                 cardBackground={true}
             >
-                <Outlet />
+                {show ?
+                    <Spinner />
+                    :
+                    <Outlet />
+                }
             </MultiUseCard>
         </Box>
     )
 }
 
-export default RichText
+export default Notes

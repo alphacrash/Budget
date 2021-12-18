@@ -27,7 +27,7 @@ function Header({ title }) {
           <Link to="/bug">Error Logging</Link>
         </Button>
         <Button>
-          <Link to="/reuse">Reusable Components</Link>
+          <Link to="/notes">Notes</Link>
         </Button>
       </nav>
     </Toolbar>

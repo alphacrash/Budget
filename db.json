@@ -1,0 +1,417 @@
+{
+  "entries": [
+    {
+      "id": "c88b2b07-b7b7-4ae6-abb9-cb9d9ff46712",
+      "description": "Work"
+    },
+    {
+      "id": 2,
+      "description": "Bills"
+    },
+    {
+      "id": 3,
+      "description": "Rent"
+    },
+    {
+      "id": "56efe371-222b-44f0-9117-e2d94498187f",
+      "description": "New Income"
+    },
+    {
+      "id": "27422ae4-b132-493e-8773-1253df2015ec",
+      "description": "New IncomeX"
+    }
+  ],
+  "values": [
+    {
+      "id": "c88b2b07-b7b7-4ae6-abb9-cb9d9ff46712",
+      "value": "1500",
+      "isExpense": false
+    },
+    {
+      "id": 2,
+      "value": 20,
+      "isExpense": true
+    },
+    {
+      "id": 3,
+      "value": 300,
+      "isExpense": true
+    },
+    {
+      "id": "56efe371-222b-44f0-9117-e2d94498187f",
+      "value": "200",
+      "isExpense": false
+    },
+    {
+      "id": "27422ae4-b132-493e-8773-1253df2015ec",
+      "value": "200",
+      "isExpense": false
+    }
+  ],
+  "rte": [
+    {
+      "rawState": "{\"blocks\":[{\"key\":\"at1oc\",\"text\":\"Hello\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":5,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "id": 1
+    },
+    {
+      "rawState": "{\"blocks\":[{\"key\":\"co3rv\",\"text\":\"Lorem ipsum dolor sit amet consectetur adipiscing elit. \",\"type\":\"header-two\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"en92p\",\"text\":\"Sed sit amet suscipit sapien. \",\"type\":\"blockquote\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"cpu01\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"1n4bq\",\"text\":\"Nunc nec imperdiet ex. \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"bg3i0\",\"text\":\"Nunc vel ante ante. \",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"779o7\",\"text\":\"Morbi placerat in orci eget finibus. \",\"type\":\"ordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"1ffgu\",\"text\":\"Morbi volutpat accumsan convallis.\",\"type\":\"ordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"7t6lj\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"9s35h\",\"text\":\"Vivamus varius volutpat quam ut tincidunt. \",\"type\":\"code-block\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"e145u\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"8om95\",\"text\":\"Nulla vitae quam quis mi venenatis imperdiet quis sit amet mi. \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":16,\"style\":\"BOLD\"},{\"offset\":17,\"length\":17,\"style\":\"ITALIC\"},{\"offset\":35,\"length\":28,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}},{\"key\":\"buro\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"46sf\",\"text\":\"Nunc interdum vitae felis sed pretium. Nulla sit amet felis mi.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":63,\"style\":\"CODE\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "id": 2
+    },
+    {
+      "rawState": "{\"blocks\":[{\"key\":\"bami9\",\"text\":\"Sunflower\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "id": 3
+    }
+  ],
+  "error": [
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {
+        "name": "Invariant Violation",
+        "framesToPop": 1
+      },
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5928:228)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 1
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {
+        "name": "Invariant Violation",
+        "framesToPop": 1
+      },
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5929:228)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 2
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {
+        "name": "Invariant Violation",
+        "framesToPop": 1
+      },
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5929:228)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 3
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5929:144)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 4
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/main.500d35da2217b4a16148.hot-update.js:29:144)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 5
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/main.d4ebe347dd7d3ebb7a3e.hot-update.js:29:144)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 6
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5932:144)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 7
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/main.42d3f05c75cb26df93b4.hot-update.js:30:73)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 8
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5933:73)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 9
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5933:73)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 10
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:5929:144)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:477:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 11
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 12
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 13
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 14
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 15
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextList (http://localhost:3000/main.18f2d055e0236b7b68d2.hot-update.js:36:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 16
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 17
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 18
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 19
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 20
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6118:153)\n    at div\n    at div\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Grid (http://localhost:3000/static/js/vendors~main.chunk.js:274314:91)\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 21
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6118:153)\n    at div\n    at div\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Grid (http://localhost:3000/static/js/vendors~main.chunk.js:274314:91)\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 22
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6118:153)\n    at div\n    at div\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Grid (http://localhost:3000/static/js/vendors~main.chunk.js:274314:91)\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 23
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6119:153)\n    at div\n    at div\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Grid (http://localhost:3000/static/js/vendors~main.chunk.js:274314:91)\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 24
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at div\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Stack (http://localhost:3000/static/js/vendors~main.chunk.js:292620:91)\n    at RichTextList (http://localhost:3000/static/js/main.chunk.js:5952:81)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:479:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:320:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 25
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6503:5)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:501:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:342:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 26
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6524:5)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:501:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:342:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 27
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6524:5)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:501:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:342:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 28
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at RichTextViewer (http://localhost:3000/static/js/main.chunk.js:6524:5)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:501:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:342:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 29
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/main.f62c9e72185a131d3b42.hot-update.js:64:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:342:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 30
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:385765:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:269147:86)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:385698:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:385213:5)\n    at div\n    at Router (http://localhost:3000/main.f62c9e72185a131d3b42.hot-update.js:64:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:382651:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:380127:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:342:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 31
+    }
+  ]
+}

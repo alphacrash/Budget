@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import { Box, Button } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 
-import ListPosts from './components/ListPosts';
-import NewEntryForm from './components/NewEntryForm';
-import ModalEdit from './components/ModalEdit';
+import ListPosts from './components/Budget/ListPosts';
+import NewEntryForm from './components/Budget/NewEntryForm';
+import ModalEdit from './components/Budget/ModalEdit';
 import { getAllEntries } from './actions';
-import Balance from './components/Balance';
+import Balance from './components/Budget/Balance';
 import ConditionalField from './components/ConditionalField';
 
 export default function App() {

@@ -4,9 +4,11 @@ import {
     Box, Typography
 } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import { MultiUseCard } from '../MultiUseCard/MultiUseCard';
-import Spinner from '../Spinner/Spinner';
+import RichTextCreate from '../RichText/RichTextCreate';
+import RichTextList from '../RichText/RichTextList';
+import Spinner from '../Spinner';
 
 function Notes() {
     const [show, setShow] = useState(false);
@@ -71,7 +73,10 @@ function Notes() {
                 {show ?
                     <Spinner message="Loading notes..." />
                     :
-                    <Outlet />
+                    <Routes>
+                        <Route path="edit" element={<RichTextCreate />} />
+                        <Route path="list" element={<RichTextList />} />
+                    </Routes>
                 }
             </MultiUseCard>
         </Box>

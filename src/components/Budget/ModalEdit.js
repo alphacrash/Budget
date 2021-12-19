@@ -6,11 +6,11 @@ import {
   DialogTitle
 } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { closeEditModal } from '../actions';
-import useEntryDetails from './hooks/useEntryDetails';
+import { closeEditModal } from '../../actions';
+import useEntryDetails from './useEntryDetails';
 import EntryForm from './EntryForm';
 import { useEffect, useState } from 'react';
-import isDirty from '../services/dirtyCheck';
+import isDirty from '../../services/dirtyCheck';
 
 const ModalEdit = ({ isOpen, id, description, value, isExpense }) => {
   const [disabled, setDisabled] = useState(true);

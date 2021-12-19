@@ -1,18 +1,24 @@
-import { Box, CircularProgress, Typography } from '@mui/material';
+import { CircularProgress, Typography, Stack } from '@mui/material';
 
-function Spinner() {
+function Spinner({ size, message }) {
+  if (!size) size = 80;
   return (
-    <Box sx={{ display: 'flex' }}>
-      <CircularProgress size={80} thickness={5} />
+    <Stack
+      direction="row"
+      justifyContent="space-evenly"
+      alignItems="center"
+      spacing={2}
+    >
+      <CircularProgress size={size} thickness={5} />
       <Typography
-          variant="h5"
-          align="center"
-          color="text.secondary"
-          paragraph
-        >
-          Loading in progress...
-        </Typography>
-    </Box>
+        variant="h5"
+        align="center"
+        color="text.secondary"
+        paragraph
+      >
+        {message}
+      </Typography>
+    </Stack>
   );
 }
 

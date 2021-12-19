@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Box, Button, Container, Stack, Typography } from '@mui/material';
 
-import ReusableTable from "../Table/ReusableTable";
+import ReusableTable from "../ReusableTable";
 
 // Mock Data
 import users from './mockData/users.json'

@@ -9,7 +9,8 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
 
-import AuthService from '../services/authService';
+import AuthService from '../../services/authService';
+
 const theme = createTheme();
 
 export default function SignIn({ setToken }) {

@@ -12,7 +12,7 @@ import {
 import { Edit as EditIcon, Delete as DeleteIcon } from "@mui/icons-material";
 import { green, red } from "@mui/material/colors";
 import { useDispatch } from "react-redux";
-import { openEditModal, removeEntryRedux } from "../actions";
+import { openEditModal, removeEntryRedux } from "../../actions";
 
 const Post = ({ post }) => {
   const dispatch = useDispatch();

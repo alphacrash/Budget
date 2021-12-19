@@ -1,5 +1,5 @@
 import { Button, Typography } from "@mui/material";
-import useEntryDetails from "./hooks/useEntryDetails";
+import useEntryDetails from "./useEntryDetails";
 import EntryForm from "./EntryForm";
 
 const NewEntryForm = () => {

@@ -5,8 +5,8 @@ import {
 } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { MultiUseCard } from './MultiUseCard/MultiUseCard';
-import Spinner from './Spinner/Spinner';
+import { MultiUseCard } from '../MultiUseCard/MultiUseCard';
+import Spinner from '../Spinner/Spinner';
 
 function Notes() {
     const [show, setShow] = useState(false);
@@ -58,7 +58,7 @@ function Notes() {
                         color="text.primary"
                         gutterBottom
                     >
-                        Notes
+                        Rich Text
                     </Typography>
                 </Link>
             </MultiUseCard>
@@ -69,7 +69,7 @@ function Notes() {
                 cardBackground={true}
             >
                 {show ?
-                    <Spinner />
+                    <Spinner message="Loading notes..." />
                     :
                     <Outlet />
                 }

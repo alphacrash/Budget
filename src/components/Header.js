@@ -21,13 +21,13 @@ function Header({ title }) {
           <Link to="/">Home</Link>
         </Button>
         <Button>
-          <Link to="/category">Category</Link>
+          <Link to="/bug">Log Error</Link>
         </Button>
         <Button>
-          <Link to="/bug">Error Logging</Link>
+          <Link to="/table">Table</Link>
         </Button>
         <Button>
-          <Link to="/notes">Notes</Link>
+          <Link to="/richtext">Rich Text</Link>
         </Button>
       </nav>
     </Toolbar>

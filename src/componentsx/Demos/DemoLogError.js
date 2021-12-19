@@ -2,7 +2,7 @@ import { Box, Container, Typography } from '@mui/material';
 import { ErrorBoundary } from 'react-error-boundary';
 import request from 'superagent';
 
-import ErrorThrowingComponent from './ErrorThrowingComponent';
+import ErrorThrowingComponent from '../../components/ErrorThrowingComponent';
 
 const logError = async (error, errorInfo) => {
   const appError = {
@@ -30,7 +30,7 @@ function ErrorFallback({ error, resetErrorBoundary }) {
   );
 }
 
-function ErrorLoggingDemo() {
+function DemoLogError() {
   return (
     <Box
       sx={{
@@ -68,4 +68,4 @@ function ErrorLoggingDemo() {
   );
 }
 
-export default ErrorLoggingDemo;
+export default DemoLogError;

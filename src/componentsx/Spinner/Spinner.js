@@ -1,6 +1,7 @@
 import { CircularProgress, Typography, Stack } from '@mui/material';
 
-function Spinner() {
+function Spinner({ size, message }) {
+  if (!size) size = 80;
   return (
     <Stack
       direction="row"
@@ -8,14 +9,14 @@ function Spinner() {
       alignItems="center"
       spacing={2}
     >
-      <CircularProgress size={80} thickness={5} />
+      <CircularProgress size={size} thickness={5} />
       <Typography
         variant="h5"
         align="center"
         color="text.secondary"
         paragraph
       >
-        Loading in progress...
+        {message}
       </Typography>
     </Stack>
   );

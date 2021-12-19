@@ -1,63 +1,67 @@
-# Helpful Notes
+# React Reference POC
 
-## Catching Errors in React with Error Boundaries
+## Pending
 
-### Helpful Links
+- [ ] Authentication and Authorization
+- [ ] User (Session) Time Out
+- [ ] Styling - Mammoth
 
-* https://blog.openreplay.com/catching-errors-in-react-with-error-boundaries
-* https://reactjs.org/docs/error-boundaries.html
-* https://blog.logrocket.com/handling-javascript-errors-react-error-boundaries/
-* https://codepen.io/gaearon/pen/wqvxGa?editors=0010
+## React Reference Application Requirements
 
-### Limitations of Error Boundary introduced in React 16
+### [ ] 2.1 Necessary Configuration
 
-Error boundaries are great for what they do - catch runtime errors you didn’t expect during rendering. However, there are a few types of errors that aren’t caught, and that you need to deal with in a different way. These include:
+- [x] Add all the necessary packages
+- [x] Add routing
+- [x] Add necessary folder structures
+- [ ] Add necessary project build configuration
+  - Webpack required
+- [ ] Add the docker file for creating the application image
+  - Docker required
 
-* errors in event handlers (when you click a button for instance)
-* errors in asynchronous callbacks (setTimeout for instance)
-* errors that happen in the error boundary component itself
-* errors that occur during server side rendering
+### [x] 2.2 Set up the redux store configuration (including saga) - POC
 
-2	FE	Create a reference application	Reference Implementation	NewDev	Create a reference react app with features like authentication, redux store, error handling
-2.1	FE	Application Set up	Code	NewDev	"Application Set up inlcuding docker image set up
-- Add all the necessary packages
-- Add routing
-- Add necessary folder structures
-- Add necessary project build configuration
-- Add the docker file for creating the application image"
-2.2	FE	Set up the redux store configuration (including saga) - POC	Code	POC	"Set up the redux store configuration (including saga) - POC
-- Set up the folder structure to store actions, reducers, sagas
-- Set up the main application store
-- Add the saga middleware and configure the store to work with saga"
-2.3	FE	Set up the redux store configuration (including saga)	Code	NewDev	"Set up the redux store configuration (including saga)
-- Set up the folder structure to store actions, reducers, sagas
-- Set up the main application store
-- Add the saga middleware and configure the store to work with saga"
-2.4	FE	Error Logging (uncaught exceptions in the client code)	Logging	NewDev	"Error Logging (uncaught exceptions in the client code)
-- Write an windows event listener to run when there is an error event.
-- Format the error message, stack trace, context
-- Call the logging service endpoint to persist the error in the database."
-2.5	FE	Dirty Check (Is Dirty Check) - POC	Performance	POC	"Dirty Check (Is Dirty Check) - POC
-- Build a function to compare objects based on the values for each key"
-2.6	FE	Dirty Check (Is Dirty Check)	Performance	NewDev	"Dirty Check (Is Dirty Check)
-- Build a function to compare objects based on the values for each key"
-2.7	FE	Add Authentication & Authorization	Security	Enhance/ReUse HBX	"Add Authentication & Authorization
-- Build the http interceptor, and add some dummy token as a work around
-- Need to add the code to retreive the refresh token
-** Understand the code in HBX and implement the same for Enrollment **"
-2.8	FE	Build Reusable Components	Code	NewDev	"Build Reusable Components
-- Create a table with
-               - Sorting
-               - Searching
-               - Filtering
-               - Paging
-               - Export to Excel, CSV files
-- Rich Text Box
-- Spinner(with customizable message)
-- Warning/Information/Alert Card (Multi Use Card in React Consumer)
-**Will be adding more to this list**"
-2.9	FE	User(Session) Time Out	Security	Enhance/ReUse HBX	"User(Session) Time Out
-- Build a component to watch the JWT token expiry time
-- Timer component will be a higher order function which will wrap the application code"
+- [x] Set up the folder structure to store actions, reducers, sagas
+- [x] Set up the main application store
+- [x] Add the saga middleware and configure the store to work with saga
 
+### [x] 2.3 Set up the redux store configuration (including saga)
 
+- [x] Set up the folder structure to store actions, reducers, sagas
+- [x] Set up the main application store
+- [x] Add the saga middleware and configure the store to work with saga
+
+### [x] 2.4 Error Logging (uncaught exceptions in the client code)
+
+- [x] Write an windows event listener to run when there is an error event.
+- [x] Format the error message, stack trace, context
+- [x] Call the logging service endpoint to persist the error in the database.
+
+### [x] 2.5 Dirty Check (Is Dirty Check) - POC
+
+- [x] Build a function to compare objects based on the values for each key
+
+### [x] 2.6 Dirty Check (Is Dirty Check)
+
+- [x] Build a function to compare objects based on the values for each key"
+
+### [ ] 2.7 Add Authentication & Authorization
+
+- [ ] Build the http interceptor, and add some dummy token as a work around
+- [ ] Need to add the code to retreive the refresh token
+
+### [ ] 2.8. Build Reusable Components
+
+- [ ] Create a table with
+  - [x] Sorting
+  - [x] Searching
+  - [ ] Filtering
+  - [x] Paging
+  - [x] Export to Excel, CSV files
+- [x] Rich Text Box
+- [x] Spinner(with customizable message)
+- [x] Warning/Information/Alert Card
+
+### [ ] 2.9 User (Session) Time Out
+
+- [ ] Build a component to watch the JWT token expiry time
+- [ ] Timer component will be a higher order function which will wrap the application code

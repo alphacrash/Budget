@@ -9,10 +9,23 @@ import { useDispatch } from 'react-redux';
 import { closeEditModal } from '../actions';
 import useEntryDetails from './hooks/useEntryDetails';
 import EntryForm from './EntryForm';
+import { useEffect, useState } from 'react';
+import isDirty from '../services/dirtyCheck';
 
 const ModalEdit = ({ isOpen, id, description, value, isExpense }) => {
+  const [disabled, setDisabled] = useState(true);
   const dispatch = useDispatch();
   const entryUpdate = useEntryDetails(description, value, isExpense);
+  const previousState = [description, Number(value), isExpense];
+
+  // eslint-disable-next-line
+  useEffect(() => {
+    const currentEntry = entryUpdate;
+    const currentState = [currentEntry.description, Number(currentEntry.value), currentEntry.isExpense];
+    const dirty = isDirty(previousState, currentState);
+    setDisabled(!dirty)
+  })
+
   return (
     <Dialog open={isOpen} onClose={() => () => dispatch(closeEditModal())}>
       <DialogTitle>Edit Post</DialogTitle>
@@ -29,7 +42,7 @@ const ModalEdit = ({ isOpen, id, description, value, isExpense }) => {
       </DialogContent>
       <DialogActions>
         <Button onClick={() => dispatch(closeEditModal())}>Cancel</Button>
-        <Button onClick={() => entryUpdate.updateEntry(id)}>Update</Button>
+        <Button onClick={() => entryUpdate.updateEntry(id)} disabled={disabled}>Update</Button>
       </DialogActions>
     </Dialog>
   );

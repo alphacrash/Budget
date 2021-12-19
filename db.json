@@ -1024,6 +1024,17 @@
       },
       "component": "ReactJavaScript",
       "id": 87
+    },
+    {
+      "appErrorCode": "",
+      "appErrorNumber": "",
+      "userName": "",
+      "exceptionMessage": {},
+      "stackTrace": {
+        "componentStack": "\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:137551:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:137066:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:98:64)\n    at Routes (http://localhost:3000/static/js/vendors~main.chunk.js:137618:5)\n    at main\n    at http://localhost:3000/static/js/vendors~main.chunk.js:793:73\n    at Container (http://localhost:3000/static/js/vendors~main.chunk.js:21000:86)\n    at SessionTimeout (http://localhost:3000/static/js/main.chunk.js:532:5)\n    at Router (http://localhost:3000/static/js/vendors~main.chunk.js:137551:15)\n    at BrowserRouter (http://localhost:3000/static/js/vendors~main.chunk.js:137066:5)\n    at div\n    at Router (http://localhost:3000/static/js/main.chunk.js:98:64)\n    at Provider (http://localhost:3000/static/js/vendors~main.chunk.js:134504:20)\n    at ErrorBoundary (http://localhost:3000/static/js/vendors~main.chunk.js:131980:37)\n    at ErrorBoundaryLogger (http://localhost:3000/static/js/main.chunk.js:408:5)"
+      },
+      "component": "ReactJavaScript",
+      "id": 88
     }
   ]
 }

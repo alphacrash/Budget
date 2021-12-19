@@ -1,72 +1,56 @@
-import { useEffect, useState } from 'react';
-import { Box, Button } from '@mui/material';
-import { useDispatch, useSelector } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Container } from '@mui/material';
+import useToken from './useToken';
 
-import ListPosts from './components/Budget/ListPosts';
-import NewEntryForm from './components/Budget/NewEntryForm';
-import ModalEdit from './components/Budget/ModalEdit';
-import { getAllEntries } from './actions';
-import Balance from './components/Budget/Balance';
-import ConditionalField from './components/ConditionalField';
+// HOC
+import SessionTimeout from './SessionTimeout';
 
-export default function App() {
-  const [incomeTotal, setIncomeTotal] = useState(0);
-  const [expenseTotal, setExpenseTotal] = useState(0);
-  const [total, setTotal] = useState(0);
-  const [entry, setEntry] = useState();
-  const [addEntry, setAddEntry] = useState(false);
-  const posts = useSelector((state) => state.posts);
-  const { isOpen, id } = useSelector((state) => state.modals);
+// Authorization
+import SignIn from './components/Authorization/SignIn';
+import Signup from './components/Authorization/Signup';
 
-  useEffect(() => {
-    const index = posts.findIndex((e) => e.id === id);
-    setEntry(posts[index]);
-  }, [isOpen, id, posts]);
+// Necessary
+import Header from './components/Header';
 
-  useEffect(() => {
-    let totalIncome = 0;
-    let totalExpense = 0;
-    posts.map((post) => {
-      if (post.isExpense) {
-        totalExpense += Number(post.value);
-        return totalExpense;
-      }
-      totalIncome += Number(post.value);
-      return totalIncome;
-    });
-    const totalx = totalIncome - totalExpense;
-    setTotal(totalx);
-    setIncomeTotal(totalIncome);
-    setExpenseTotal(totalExpense);
-  }, [posts]);
+// Demo Components
+import DemoRichText from './components/Demos/DemoRichText';
+import DemoTable from './components/Demos/DemoTable';
+import DemoLogError from './components/Demos/DemoLogError';
+import Budget from './components/Budget/Budget';
 
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getAllEntries());
-  }, [dispatch]);
+const App = () => {
+  const { token, setToken } = useToken();
+
+  if (!token) {
+    return (
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SignIn setToken={setToken} />} />
+          <Route path="/signup" element={<Signup setToken={setToken} />} />
+        </Routes>
+      </BrowserRouter>
+    );
+  }
 
   return (
-    <>
-      <Balance
-        balance={total}
-        incomeTotal={incomeTotal}
-        expenseTotal={expenseTotal}
-      />
-
-      <Box sx={{ mt: 2, mb: 2 }}>
-        <Button variant="contained" onClick={() => setAddEntry(!addEntry)}>
-          Add Entry (Conditional Field)
-        </Button>
-      </Box>
-
-      <ConditionalField condition={addEntry}>
-        <NewEntryForm />
-      </ConditionalField>
-
-      <ListPosts posts={posts} isOpen={isOpen} />
-
-      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-      <ModalEdit isOpen={isOpen} {...entry} />
-    </>
+    <div>
+      <BrowserRouter>
+        <SessionTimeout>
+          <Container maxWidth="md" component="main">
+            <Header title="Budget" />
+            <Routes>
+              <Route path="/" element={<Budget />} />
+              <Route path="signin" element={<SignIn setToken={setToken} />} />
+              <Route path="signup" element={<Signup setToken={setToken} />} />
+              <Route path="bug" element={<DemoLogError />} />
+              <Route path="richtext/*" element={<DemoRichText />} />
+              <Route path="table" element={<DemoTable />} />
+            </Routes>
+          </Container>
+        </SessionTimeout>
+      </BrowserRouter>
+    </div>
   );
-}
+};
+
+export default App;

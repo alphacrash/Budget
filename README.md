@@ -3,7 +3,6 @@
 ## Pending
 
 - [ ] Authentication and Authorization
-- [ ] User (Session) Time Out
 - [ ] Styling - Mammoth
 
 ## React Reference Application Requirements
@@ -46,7 +45,7 @@
 
 ### [ ] 2.7 Add Authentication & Authorization
 
-- [ ] Build the http interceptor, and add some dummy token as a work around
+- [x] Build the http interceptor, and add some dummy token as a work around
 - [ ] Need to add the code to retreive the refresh token
 
 ### [ ] 2.8. Build Reusable Components
@@ -61,7 +60,7 @@
 - [x] Spinner(with customizable message)
 - [x] Warning/Information/Alert Card
 
-### [ ] 2.9 User (Session) Time Out
+### [x] 2.9 User (Session) Time Out
 
-- [ ] Build a component to watch the JWT token expiry time
-- [ ] Timer component will be a higher order function which will wrap the application code
+- [x] Build a component to watch the JWT token expiry time
+- [x] Timer component will be a higher order function which will wrap the application code

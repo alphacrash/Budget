@@ -95,7 +95,7 @@ function ReusableTable({ title, data }) {
                     </Toolbar>
                     <Table>
                         <TableHead>
-                            <TableRow component="th">{filteredData[0] && columns.map((heading, index) => <TableCell key={index}>
+                            <TableRow>{filteredData[0] && columns.map((heading, index) => <TableCell key={index}>
                                 <TableSortLabel onClick={() => requestSort(heading)}>{toTitleCase(heading)}</TableSortLabel>
                             </TableCell>)}</TableRow>
                         </TableHead>

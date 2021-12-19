@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
-import axios from 'axios';
 
+import AuthService from '../services/authService';
 const theme = createTheme();
 
 export default function SignIn({ setToken }) {
@@ -18,11 +18,11 @@ export default function SignIn({ setToken }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const token = await axios.post('http://localhost:3001/login', {
-      email: username,
+    const token = await AuthService.login(
+      username,
       password
-    });
-    setToken(token.data);
+    );
+    setToken(token);
   };
 
   return (

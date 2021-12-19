@@ -29,8 +29,14 @@ function Header({ title }) {
         <Button>
           <Link to="/richtext">Rich Text</Link>
         </Button>
+        <Button onClick={() => {
+          localStorage.removeItem("user")
+          window.location.replace("/")
+        }}>
+          Log Out
+        </Button>
       </nav>
-    </Toolbar>
+    </Toolbar >
   );
 }
 

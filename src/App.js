@@ -11,12 +11,12 @@ import Signup from './components/Authorization/Signup';
 
 // Necessary
 import Header from './components/Header';
+import Budget from './components/Budget/Budget';
 
 // Demo Components
 import DemoRichText from './components/Demos/DemoRichText';
 import DemoTable from './components/Demos/DemoTable';
 import DemoLogError from './components/Demos/DemoLogError';
-import Budget from './components/Budget/Budget';
 
 const App = () => {
   const { token, setToken } = useToken();
@@ -40,8 +40,6 @@ const App = () => {
             <Header title="Budget" />
             <Routes>
               <Route path="/" element={<Budget />} />
-              <Route path="signin" element={<SignIn setToken={setToken} />} />
-              <Route path="signup" element={<Signup setToken={setToken} />} />
               <Route path="bug" element={<DemoLogError />} />
               <Route path="richtext/*" element={<DemoRichText />} />
               <Route path="table" element={<DemoTable />} />

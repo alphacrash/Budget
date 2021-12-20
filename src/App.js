@@ -24,6 +24,7 @@ const App = () => {
   if (!token) {
     return (
       <BrowserRouter>
+        <Header title="Budget" isLoggedIn={false} />
         <Routes>
           <Route path="/" element={<SignIn setToken={setToken} />} />
           <Route path="/signup" element={<Signup setToken={setToken} />} />
@@ -33,11 +34,11 @@ const App = () => {
   }
 
   return (
-    <div>
+    < div >
       <BrowserRouter>
         <SessionTimeout>
+          <Header title="Budget" isLoggedIn={true} />
           <Container maxWidth="md" component="main">
-            <Header title="Budget" />
             <Routes>
               <Route path="/" element={<Budget />} />
               <Route path="bug" element={<DemoLogError />} />
@@ -47,7 +48,7 @@ const App = () => {
           </Container>
         </SessionTimeout>
       </BrowserRouter>
-    </div>
+    </div >
   );
 };
 

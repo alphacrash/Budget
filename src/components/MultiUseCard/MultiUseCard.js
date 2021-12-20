@@ -10,7 +10,7 @@ const iconMapper = {
     info: 'ic_blue_alert'
 };
 
-export const MultiUseCard = ({
+const MultiUseCard = ({
     children,
     cardType,
     barPosition,
@@ -92,3 +92,5 @@ MultiUseCard.defaultProps = {
     cardBackground: true,
     coloredBackground: false,
 };
+
+export default MultiUseCard

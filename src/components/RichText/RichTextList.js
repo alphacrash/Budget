@@ -1,7 +1,7 @@
 import { Button, Stack, Typography } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { MultiUseCard } from "../MultiUseCard/MultiUseCard";
+import MultiUseCard from "../MultiUseCard/MultiUseCard";
 import RichTextViewer from "./RichTextViewer";
 
 function RichTextList() {

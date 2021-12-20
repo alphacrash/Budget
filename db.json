@@ -19,6 +19,10 @@
     {
       "id": "27422ae4-b132-493e-8773-1253df2015ec",
       "description": "New IncomeX"
+    },
+    {
+      "id": "19f18713-6fe0-4661-adca-1422d031fa9d",
+      "description": "iPhone"
     }
   ],
   "values": [
@@ -46,6 +50,11 @@
       "id": "27422ae4-b132-493e-8773-1253df2015ec",
       "value": "200",
       "isExpense": false
+    },
+    {
+      "id": "19f18713-6fe0-4661-adca-1422d031fa9d",
+      "value": "699",
+      "isExpense": true
     }
   ],
   "rte": [

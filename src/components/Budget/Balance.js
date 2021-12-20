@@ -1,5 +1,6 @@
 import { Container, Grid } from '@mui/material';
 import BalanceCard from './BalanceCard';
+import BalanceCardX from './BalanceCardX';
 
 function Balance({ balance, incomeTotal, expenseTotal }) {
   return (
@@ -13,6 +14,9 @@ function Balance({ balance, incomeTotal, expenseTotal }) {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <BalanceCard title="Total Expense" value={expenseTotal} />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <BalanceCardX title="Total Expense" value={expenseTotal} />
         </Grid>
       </Grid>
     </Container>
